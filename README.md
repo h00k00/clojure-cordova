@@ -1,6 +1,6 @@
 # template
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+A [re-frame](https://github.com/Day8/re-frame) application with material ui and possibility to create cordova applications
 
 ## Development Mode
 
@@ -23,4 +23,12 @@ To compile clojurescript to javascript:
 ```
 lein clean
 lein cljsbuild once min
+```
+
+## Cordova builds
+
+```
+cd resources
+cordova platform add android | ios | browser
+e.g. cordova build android
 ```
